@@ -9,7 +9,8 @@ public class TestScripts : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Debug.Log("????");
+        var render=this.GetComponent<Renderer>();
     }
 
     // Update is called once per frame
